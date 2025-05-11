@@ -1,0 +1,49 @@
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+.venv/
+# Python / Flask API
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.sqlite3
+.env
+backend/venv/
+backend/app/__pycache__/
+backend/model_kera/*.keras
+backend/model_kera/*.png
+
+# Ignorer les datasets du backend
+backend/tests/Cucumber Disease Recognition Dataset/
+backend/tests/**/Augmented Image/
+backend/tests/**/Original Image/
+backend/tests/**/__pycache__/
+
+# Node.js / Frontend (React Native ou Flutter Web)
+Frontend/**/node_modules/
+Frontend/**/.expo/
+Frontend/**/dist/
+Frontend/**/.cache/
+Frontend/**/web/cache/
+
+# IDE / éditeurs
+.idea/
+.vscode/
+*.swp
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+ios/
+android/
+
+# Sorties d'export
+*.pdf
+*.zip
+*.tar.gz
+*.tgz
+*.apk
+*.ipa
